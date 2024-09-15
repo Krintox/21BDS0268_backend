@@ -1,7 +1,7 @@
 package main
 
 import (
-	"21BDS0268_backend/controllers"
+	"/controllers"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,0 +1,17 @@
+postgres:
+  host: postgres
+  user: postgres
+  password: yourpassword
+  dbname: file_management
+  sslmode: disable
+
+redis:
+  host: redis
+  port: 6379
+  db: 0
+
+aws_s3:
+  region: process.env.region
+  access_key_id: process.env.access_key
+  secret_access_key: process.env.secret-access-key
+  bucket: process.env.s3-bucket
